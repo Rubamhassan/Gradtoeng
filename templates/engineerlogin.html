@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<h1>Engineer Log in</h1>
+	</head>
+		<body>
+			<form action="/enginnerlogin" method="POST">
+				<div class="engineerlogin">
+						<div class="col-sm-4">
+							<label>Email:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="email" name="email" required class="enginnerlogin">
+						</div>
+						<div class="col-sm-4">
+							<label>Name:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="name" name="name" required class="enginnerlogin">
+						</div>
+						<div class="col-sm-4">
+							<label>Phone Number:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="phone_number" name="phone_number" required class="enginnerlogin">
+						</div>
+						<div class="col-sm-4">
+							<label>Title:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="title" name="title" required class="enginnerlogin">
+						</div>
+						<div class="col-sm-4">
+							<label>Github:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="github" name="github" required class="enginnerlogin">
+						</div>
+						<div class="col-sm-4">
+							<label>LinkedIn:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="LinkedIn" name="LinkedIn" required class="enginnerlogin">
+						</div>
+						<div class="col-sm-4">
+							<label>Password:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="password" name="password" required class="enginnerlogin">
+						</div>		
+					</div>
+					<br><br>
+					<input id="submit-button" class="btn-sm" type="submit">
+			</form>
+			<div>
+				<h1> Registered Engineer Login</h1>
+				<form action="/engineerlogin" method="POST">
+					<div class="enginnerlogin">
+						<div class="col-sm-4">
+							<label>Email:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="email" name="email" required class="engineerlogin">
+						</div>
+					</div>
+					<br><br>
+					<div class="enginnerlogin">
+						<div class="col-sm-4">
+							<label>Password:</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="form-control" type="password" name="password" required class="engineerlogin">
+						</div>						
+					</div>
+					<br><br>
+					<input class="btn-sm" type="submit">
+				</form>
+			</div>
+		</body>
+</html>

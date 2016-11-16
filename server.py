@@ -14,6 +14,16 @@ def index():
 
 	return render_template("homepage.html")
 
+@app.route('/engineerlogin', methods= ['Get'])
+def login():
+	"""allow the user to get to login page"""
+	return render_template("engineerlogin.html")
+
+@app.route('/companylogin', methods= ['Get'])
+def comp_login():
+	"""allows companies to log in"""
+	return render_template("companylogin.html")
+
 
 
 if __name__ == "__main__":
